@@ -59,6 +59,7 @@ void setup() {
   size(1500, 800);
   music = new SoundFile(this, "jeux.mp3");
   music.play();
+  music.amp(0.1);
 
   
   frameRate(15);
